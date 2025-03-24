@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/celebration" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:gravity="center"
+            android:fontFamily="@font/abril_fatface"
+            android:letterSpacing="0.4"
+            android:text="@string/completed_hunt_str"
+            android:textAllCaps="true"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/finish_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="38dp"
+            android:text="Score"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="38dp"
+            android:text="@string/come_back_str"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/finish_btn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/exit_hunt_str"
+            android:fontFamily="monospace"
+            android:textAllCaps="false"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map_pin">Map &amp; Pin </string>
+    <string name="map_pin_url"><a href="https://www.vectorstock.com/royalty-free-vector/pin-map-icon-vector-10553686">View map and pin illustration online(Vectorstock)</a></string>
+
+    <string name="treasure_map">Treasure Map</string>
+    <string name="treasure_map_url"><a
+        href="https://www.flaticon.com/premium-icon/treasure-map_4176159?term=treasure%20map&amp;page=1&amp;position=73&amp;page=1&amp;position=73&amp;related_id=4176159&amp;origin=tag">View treasure map illustration online (Freepik-Flaticon)</a></string>
+
+    <string name="profile_icon">Profile Icon</string>
+    <string name="profile_icone_url"><a
+    href="https://www.flaticon.com/premium-icon/user_2102647?term=profile&amp;page=1&amp;position=4&amp;page=1&amp;position=4&amp;related_id=2102647&amp;origin=search">View profile icon illustration online (Freepik-Flaticon)</a></string>
+
+    <string name="explore_icon">Explore Pin Icon</string>
+    <string name="explore_icon_url"><a
+        href="https://www.flaticon.com/premium-icon/placeholder_819865?term=map%20pin&amp;page=1&amp;position=2&amp;page=1&amp;position=2&amp;related_id=819865&amp;origin=search">View explore icon illustration online (Freepik-Flaticon)</a></string>
+
+    <string name="join_icon">Treasure Chest Icon</string>
+    <string name="join_icon_url"><a
+        href= "https://www.flaticon.com/free-icon/treasure-chest_4018218?term=treasure%20chest&amp;page=1&amp;position=30&amp;page=1&amp;position=30&amp;related_id=4018218&amp;origin=search">View join icon illustration online (Freepik-Flaticon)</a></string>
+
+    <string name="treasure_chest">Treasure Chest</string>
+    <string name="treasure_chest_url"><a href="https://www.flaticon.com/premium-icon/treasure-chest_2374872?term=treasure%20chest&amp;related_id=2374872">View treasure chest illustration online (Freepik-Flaticon)</a></string>
+
+    <string name="celebaration">Celebration</string>
+    <string name="celebration_url"><a href="https://www.flaticon.com/premium-icon/celebration_2552467?term=celebrate&amp;related_id=2552467">View celebration illustration online (Freepik-Flaticon)</a></string>
+</resources>

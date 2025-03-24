@@ -1,0 +1,182 @@
+body{
+    background-color: #F7F3E3;
+}
+
+/* NavBar */
+
+.navbar{
+    background-color: #5BA6A2;
+}
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #4D452A;
+}
+
+.navbar-dark .navbar-brand {
+    color: #4D452A;
+}
+
+.navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 48px 0 0; /* Height of navbar */
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+    color: white;
+    background: #5BA6A2;
+}
+
+/* Title */
+
+.title{
+    font-size: 20px;
+    font-family: "Abril Fatface";
+    font-weight: bold;
+    color: #4D452A;
+}
+
+.small-title{
+    margin-bottom: 5px;
+    color: #4B7E7C;
+    font-size: 17px;
+}
+
+/* Links */
+
+a{
+    text-decoration: none;
+}
+
+/* Buttons */
+
+.btn-green{
+    background-color: #5BA6A2;
+    color: white;
+}
+
+.btn-green:hover{
+    background-color: #4c8885;
+    color: white;
+}
+
+.btn-red{
+    background-color: #DD7373;
+    color: white;
+}
+
+.btn-red:hover{
+    background-color: #b35151;
+    color: white;
+}
+
+/* Lists */
+
+#checkpoint-list{
+    max-height: 270px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#challenge-list{
+    max-height: 230px;
+    overflow: hidden;
+    overflow-y: scroll;
+	
+	-ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+#challenge-list::-webkit-scrollbar {
+    display: none;
+}
+
+#messages-list{
+    max-height: 405px;
+    list-style-type: none;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#chat-users{
+    max-height: 405px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+#chat-users::-webkit-scrollbar {
+    display: none;
+}
+
+/* Map */
+
+#map{
+    height: 300px;
+}
+
+/* Images */
+.small-image{
+    height: 20px;
+    width: 20px;
+}
+
+/* Messages */
+.message{
+    background-color: #c0c0c094;
+}
+
+.active-dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Other */
+
+.clickable:hover{
+	cursor: pointer;
+}
+
+/* Spinner */
+#loader {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 2;
+    border: 16px solid #5BA6A2;
+	border-top: 16px solid #4D452A;
+    border-radius: 50%;
+	animation: spin 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

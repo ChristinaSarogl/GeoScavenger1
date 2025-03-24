@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map_game"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/game_exit_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/exit_hunt" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/game_help_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/sos_red"
+            android:text="@string/game_help_str"
+            android:drawableLeft="@android:drawable/ic_dialog_alert"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/game_cancel_help_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/pastel_red"
+            android:text="@string/game_cancel_help_str"
+            android:textSize="16dp"
+            android:textAllCaps="false"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/game_assistance_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/pastel_blue"
+            android:text="@string/game_assistance_str"
+            android:drawableLeft="@drawable/ic_messages"
+            android:textAllCaps="false"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/game_clue_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/pastel_teal"
+            android:text="@string/game_clue_str"
+            android:drawableLeft="@android:drawable/ic_menu_info_details"
+            android:textAllCaps="false"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/game_progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

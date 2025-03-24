@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/question_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/customborder">
+
+        <TextView
+            android:id="@+id/question_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="Question"/>
+
+        <TextView
+            android:id="@+id/question_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:text="Please choose an answer"
+            android:textColor="@color/sos_red"
+            android:visibility="gone"/>
+
+        <RadioGroup
+            android:id="@+id/question_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/question_answer0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="answer1"
+                android:tag="0"/>
+
+            <RadioButton
+                android:id="@+id/question_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="answer2"
+                android:tag="1"/>
+
+            <RadioButton
+                android:id="@+id/question_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="answer3"
+                android:tag="2"/>
+
+            <RadioButton
+                android:id="@+id/question_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="answer4"
+                android:tag="3"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/question_submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">GeoScavenger</string>
+    <string name="login_str">Login</string>
+    <string name="logout_str">Log Out</string>
+    <string name="signUp_str">Sign Up</string>
+    <string name="guest_str">Guest</string>
+    <string name="email_str">Email</string>
+    <string name="old_password_str">Old password</string>
+    <string name="password_str">Password</string>
+    <string name="repeat_password_str">Repeat password</string>
+    <string name="nickname_str">Nickname</string>
+    <string name="huntID_str">Hunt ID</string>
+    <string name="username_str">Username</string>
+    <string name="birthday_str">Date of Birth (dd/mm/yyyy)</string>
+    <string name="reset_password_str">Reset Password</string>
+
+    <string name="explore_str">Explore</string>
+    <string name="explore_enter">Enter Hunt</string>
+    <string name="profile_str">Profile</string>
+    <string name="join_str">Join</string>
+    <string name="settings_str">Settings</string>
+    <string name="previous_hunts_str">Previous Hunts</string>
+    <string name="credits_str">Credits</string>
+    <string name="edit_profile_str">Edit profile</string>
+    <string name="change_password_str">Change password</string>
+    <string name="change_email_str">Change email</string>
+    <string name="delete_account_str">Delete account</string>
+    <string name="save_changes_str">Save changes</string>
+    <string name="username_update_str">Username updated</string>
+    <string name="password_update_str">Password updated</string>
+    <string name="email_update_str">Email updated</string>
+    <string name="delete_user_str">User deleted</string>
+    <string name="authenticate_btn_str">Continue</string>
+    <string name="hunts_joined_str">Joined hunts: </string>
+    <string name="assistance_str">Assistance Chatroom</string>
+
+    <string name="exit_hunt_str">Exit</string>
+    <string name="game_help_str">SOS</string>
+    <string name="game_assistance_str">Chat</string>
+    <string name="game_clue_str">Clue</string>
+    <string name="game_cancel_help_str">Cancel Help</string>
+    <string name="assistance_send_str">SEND</string>
+
+    <string name="guest_play_str">Play as a Guest</string>
+    <string name="have_account_str">Already have an account?</string>
+    <string name="create_account_str">Don\'t have an account?</string>
+    <string name="forgot_password_str">Forgot Password?</string>
+    <string name="enter_as_guest_str">Enter hunt as a Guest</string>
+    <string name="email_verification_str">Verification email sent.</string>
+    <string name="access_location_str">Please set location permission to \'All times\'.</string>
+    <string name="profile_uploaded_str">Profile picture uploaded</string>
+    <string name="delete_account_confirm_str">Enter your password to delete account.</string>
+    <string name="authenticate_user_str">You need to enter your password first.</string>
+    <string name="completed_hunt_str">You completed the hunt!</string>
+    <string name="come_back_str">Please make your way back to the meeting point.</string>
+
+
+    <!--  Permissions  -->
+    <string name="permissions_title_str">Set the right Permissions</string>
+    <string name="permissions_message_str">You cannot enter any hunt because you haven\'t granted the right permissions.</string>
+
+    <string name="permissions_android9">For Android 9</string>
+    <string name="permissions_android9_step1">Go to Settings > Security &amp; Location</string>
+    <string name="permissions_android9_step2">Go to \'Privacy\' and tap on \'Location\'</string>
+    <string name="permissions_android9_step3">Tap on \'App-level permissions\'</string>
+    <string name="permissions_android9_step4">Find GeoScavenger and allow Location</string>
+
+    <string name="permissions_android10">For Android 10+</string>
+    <string name="permissions_android10_step1">Go to Settings > Location</string>
+    <string name="permissions_android10_step2">Tap on \'App permissions\' or \'Location\'</string>
+    <string name="permissions_android10_step3">Tap on GeoScavenger</string>
+    <string name="permissions_android10_step4">Select \'Allow all the time\'</string>
+
+    <!--  Error messages  -->
+    <string name="wrong_credentials_str">Incorrect email or password!</string>
+    <string name="network_connection_failed">No Internet Connection.</string>
+    <string name="gps_connection_failed">Your GPS is disabled!</string>
+    <string name="unknown_error_str">Something went wrong!</string>
+    <!--  Email  -->
+    <string name="empty_email_str">Please enter your email.</string>
+    <string name="email_error_str">Please enter your email.</string>
+    <string name="email_verification_failed_str">Failed to send verification email</string>
+    <string name="invalid_email_str">Invalid email.</string>
+    <string name="email_update_failed_str">Failed to update your email.</string>
+    <!--  Username  -->
+    <string name="username_error_str">Please enter a username.</string>
+    <string name="username_update_failed">Failed to update username</string>
+    <!--  Password -->
+    <string name="empty_password_str">Please enter your password.</string>
+    <string name="password_required_str">Please enter a password.</string>
+    <string name="repeat_password_empty_str">Please re-enter the password.</string>
+    <string name="mismatch_passwords_error_str">Passwords do not match.</string>
+    <string name="weak_password_str">Password should be at least 6 characters!</string>
+    <string name="change_password_missing_str">Please enter your new password</string>
+    <string name="old_password_missing_str">Please enter your old password</string>
+    <string name="different_password_str">The new password cannot be the same as the previous</string>
+    <string name="password_update_failed">Failed to update password</string>
+    <string name="old_password_wrong_str">The password does not match your current password</string>
+    <!-- Hunt -->
+    <string name="join_hunt_id_error_str">Please enter the hunt\'s ID.</string>
+    <string name="join_invalid_hunt_id_str">There is no hunt with this ID.</string>
+
+    <string name="birthday_error_str">Please enter a valid date of birth.</string>
+    <string name="too_young_error_str">You have to be at least 12 years old to use the application.</string>
+    <string name="registration_error_str">There is already an account connected to this email.</string>
+    <string name="profile_upload_error_str">Failed to change profile picture</string>
+
+
+    <!--  Help toasts  -->
+    <string name="send_help_str">Help signal was sent!</string>
+    <string name="cancel_help_str">Help signal was canceled.</string>
+
+    <!--  Chatroom  -->
+    <string name="chatroom_info_str">Use this chatroom if you need help.\nPlease note that, this chat will be deleted when you exit or complete the hunt.</string>
+    <string name="message_admin_str">Message from Administrator</string>
+</resources>

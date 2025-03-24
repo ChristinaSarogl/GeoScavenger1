@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment_container_main"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/nav_bar" />
+
+    <LinearLayout
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="5dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/explore_nav_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/explore_nav_image_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/nav_explore_green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/explore_str" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/profile_nav_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/profile_nav_image_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/nav_profile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_str" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/join_nav_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/join_nav_image_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/nav_join" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/join_str" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

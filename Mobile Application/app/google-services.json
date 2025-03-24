@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "869135269104",
+    "firebase_url": "https://geohunt-40208-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "geohunt-40208",
+    "storage_bucket": "geohunt-40208.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869135269104:android:03b93469611053fc9cd635",
+        "android_client_info": {
+          "package_name": "com.example.geohunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869135269104-bs7cmmqf9lg2mfms9uenrjcjrpihvr2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.geohunt",
+            "certificate_hash": "2b57ad477a0e926d168e45af9b32c7a7152499aa"
+          }
+        },
+        {
+          "client_id": "869135269104-kc1p6jvehba3bmlpjnognmmki35ge8g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "apiKey"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869135269104-kc1p6jvehba3bmlpjnognmmki35ge8g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869135269104:android:b16f87b8e0754a0b9cd635",
+        "android_client_info": {
+          "package_name": "com.example.geoscavenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869135269104-kc1p6jvehba3bmlpjnognmmki35ge8g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "apiKey"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869135269104-kc1p6jvehba3bmlpjnognmmki35ge8g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
